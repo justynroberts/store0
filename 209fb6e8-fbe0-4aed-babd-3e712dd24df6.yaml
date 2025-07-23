@@ -1,6 +1,6 @@
 - defaultTab: nodes
   description: ''
-  executionEnabled: true
+  executionEnabled: false
   id: 209fb6e8-fbe0-4aed-babd-3e712dd24df6
   loglevel: INFO
   name: test-delete
