@@ -1,6 +1,6 @@
 - description: Analyse les données clients du jour avec l'IA pour identifier les tendances
     et optimiser les promotions
-  executionEnabled: true
+  executionEnabled: false
   group: Retail
   id: 2ff8702e-0302-4c01-bec8-15307315edc3
   loglevel: INFO
