@@ -4,7 +4,7 @@
   group: Admin
   id: 3e9c9352-e04b-44f3-838f-9fd78a064863
   loglevel: INFO
-  name: Pull Repo
+  name: '[Utility] - Pull Repository for Sync'
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: null
@@ -19,7 +19,7 @@
         import requests
         # Configuration
         project = "store"
-        apiToken = "PdIj20uj1WQghQ601q1LPP2H7lErquTH"
+        apiToken = "tTbk2JqR1kMCAK3C32OO9mRTbjDHVWLv"
         get_url = f"http://localhost:4440/api/15/project/{project}/scm/import/action/import-jobs/input"
         post_url = f"http://localhost:4440/api/15/project/{project}/scm/import/action/import-jobs"
         headers = {
