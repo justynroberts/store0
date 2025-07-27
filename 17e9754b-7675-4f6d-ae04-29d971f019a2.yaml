@@ -8,6 +8,15 @@
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: null
+  schedule:
+    month: '*'
+    time:
+      hour: '0'
+      minute: 0/5
+      seconds: '0'
+    weekday:
+      day: '*'
+    year: '*'
   scheduleEnabled: true
   schedules: []
   sequence:
