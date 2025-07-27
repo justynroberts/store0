@@ -1,9 +1,9 @@
 - defaultTab: nodes
   description: ''
   executionEnabled: true
-  id: 83b9d573-47f7-4a8d-acc4-a2c16bfc315b
+  id: 337c2811-714c-409f-b088-d05e3dc69f30
   loglevel: INFO
-  name: Daily Success
+  name: Store Job (Failure)
   nodeFilterEditable: false
   notification:
     onfailure:
@@ -21,7 +21,7 @@
     month: '*'
     time:
       hour: '*'
-      minute: 0/4
+      minute: 0/7
       seconds: '0'
     weekday:
       day: '*'
@@ -30,8 +30,8 @@
   schedules: []
   sequence:
     commands:
-    - exec: echo "success"
+    - exec: failure
     keepgoing: false
     strategy: node-first
-  uuid: 83b9d573-47f7-4a8d-acc4-a2c16bfc315b
+  uuid: 337c2811-714c-409f-b088-d05e3dc69f30
 

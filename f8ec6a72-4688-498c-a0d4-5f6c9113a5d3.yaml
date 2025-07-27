@@ -5,6 +5,16 @@
   loglevel: INFO
   name: Daily Failure
   nodeFilterEditable: false
+  notification:
+    onfailure:
+      format: json
+      httpMethod: post
+      urls: http://3.81.90.237:5601/carrefour
+    onsuccess:
+      format: json
+      httpMethod: post
+      urls: http://3.81.90.237:5601/carrefour
+  notifyAvgDurationThreshold: null
   plugins:
     ExecutionLifecycle: null
   schedule:
