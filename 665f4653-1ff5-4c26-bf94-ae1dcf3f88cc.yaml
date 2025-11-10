@@ -1,7 +1,7 @@
 - defaultTab: nodes
   description: Effectue la clôture de caisse pour tous les magasins et synchronise
     avec le système central
-  executionEnabled: false
+  executionEnabled: true
   group: Retail
   id: 665f4653-1ff5-4c26-bf94-ae1dcf3f88cc
   loglevel: INFO

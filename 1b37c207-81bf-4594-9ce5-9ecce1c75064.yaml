@@ -1,7 +1,7 @@
 - defaultTab: nodes
   description: Prépare automatiquement l'ouverture des magasins pour le lendemain
     matin
-  executionEnabled: false
+  executionEnabled: true
   group: Retail
   id: 1b37c207-81bf-4594-9ce5-9ecce1c75064
   loglevel: INFO

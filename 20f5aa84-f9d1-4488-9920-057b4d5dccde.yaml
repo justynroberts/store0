@@ -1,7 +1,7 @@
 - defaultTab: nodes
   description: 'Programme automatique de micro-formations, reconnaissance des performances
     et boost motivation'
-  executionEnabled: false
+  executionEnabled: true
   group: Retail
   id: 20f5aa84-f9d1-4488-9920-057b4d5dccde
   loglevel: INFO
